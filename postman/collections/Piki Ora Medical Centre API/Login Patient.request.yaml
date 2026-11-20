@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/auth/login/
+method: GET
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \    \"username\": \"postman_patient\",\r
+
+    \    \"password\": \"TestPassword123!\"\r
+
+    }\r\n"
+order: 5000

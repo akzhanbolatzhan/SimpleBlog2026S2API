@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/appointments/14/
+method: DELETE
+auth:
+  type: apikey
+  credentials:
+    key: Authorization
+    value: Token 1bb0a70fd0acdaef9127ec8feb180770cd24d408
+order: 14000

@@ -1,0 +1,10 @@
+name: Piki Ora Local
+values:
+  - key: admin_token
+    value: ''
+  - key: patient_password
+    value: ''
+  - key: admin_password
+    value: ''
+  - key: patient_token
+    value: ''

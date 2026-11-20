@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/auth/me/
+method: GET
+auth:
+  type: apikey
+  credentials:
+    key: Authorization
+    value: Token 70879ba4e34a76dfe42e14c8a12f4919e20d7286
+order: 6000

@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/admin/appointments/15/
+method: PATCH
+auth:
+  type: apikey
+  credentials:
+    key: Authorization
+    value: Token 58fe764214def3042825b0f046d1b39c3323efa9
+order: 16000
